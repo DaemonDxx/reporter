@@ -1,0 +1,16 @@
+tempDir: ./
+dbPath: ./assets/test.db
+schedule: "* * * * *"
+
+template:
+  filepath: ./assets/template.xlsm
+  sheetname: Источник
+
+mailClient:
+  host: smtp.yandex.ru
+  port: 465
+  login: some
+  password: some
+
+subscribers:
+  - somemail
